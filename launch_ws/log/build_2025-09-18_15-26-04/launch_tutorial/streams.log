@@ -1,0 +1,20 @@
+[0.342s] Invoking command in '/home/kelly/launch_ws/src/launch_tutorial': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kelly/launch_ws/build/launch_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kelly/launch_ws/install/launch_tutorial/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/kelly/launch_ws/build/launch_tutorial/build install --record /home/kelly/launch_ws/build/launch_tutorial/install.log --single-version-externally-managed install_data
+[0.452s] running egg_info
+[0.460s] writing ../../build/launch_tutorial/launch_tutorial.egg-info/PKG-INFO
+[0.460s] writing dependency_links to ../../build/launch_tutorial/launch_tutorial.egg-info/dependency_links.txt
+[0.460s] writing requirements to ../../build/launch_tutorial/launch_tutorial.egg-info/requires.txt
+[0.460s] writing top-level names to ../../build/launch_tutorial/launch_tutorial.egg-info/top_level.txt
+[0.475s] reading manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[0.475s] adding license file 'LICENSE'
+[0.475s] writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[0.476s] running build
+[0.476s] running build_py
+[0.476s] running install
+[0.478s] running install_lib
+[0.486s] running install_data
+[0.486s] running install_egg_info
+[0.494s] removing '/home/kelly/launch_ws/install/launch_tutorial/lib/python3.12/site-packages/launch_tutorial-0.0.0-py3.12.egg-info' (and everything under it)
+[0.494s] Copying ../../build/launch_tutorial/launch_tutorial.egg-info to /home/kelly/launch_ws/install/launch_tutorial/lib/python3.12/site-packages/launch_tutorial-0.0.0-py3.12.egg-info
+[0.495s] running install_scripts
+[0.547s] writing list of installed files to '/home/kelly/launch_ws/build/launch_tutorial/install.log'
+[0.557s] Invoked command in '/home/kelly/launch_ws/src/launch_tutorial' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kelly/launch_ws/build/launch_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kelly/launch_ws/install/launch_tutorial/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/kelly/launch_ws/build/launch_tutorial/build install --record /home/kelly/launch_ws/build/launch_tutorial/install.log --single-version-externally-managed install_data

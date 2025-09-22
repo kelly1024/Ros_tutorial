@@ -1,0 +1,28 @@
+[ 33%] Built target listener
+[ 66%] Built target talker
+[ 83%] [32mBuilding CXX object CMakeFiles/listener_with_topic_statistics.dir/src/member_function_with_topic_statistics.cpp.o[0m
+[01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/member_function_with_topic_statistics.cpp:52:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+   52 |   rclcpp::Subscription<[01;31m[Kstd_msgs[m[K::msg::String>::SharedPtr subscription_;
+      |                        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/member_function_with_topic_statistics.cpp:52:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   52 |   rclcpp::Subscription<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr subscription_;
+      |                                             [01;31m[K^[m[K
+[01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/member_function_with_topic_statistics.cpp:52:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/member_function_with_topic_statistics.cpp:52:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/member_function_with_topic_statistics.cpp:52:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/member_function_with_topic_statistics.cpp:52:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   52 |   rclcpp::Subscription<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K subscription_;
+      |                                                [01;31m[K^~~~~~~~~[m[K
+      |                                                         [32m[K;[m[K
+[01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/member_function_with_topic_statistics.cpp:52:58:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   52 |   rclcpp::Subscription<std_msgs::msg::String>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                          [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                          [32m[Krmw_subscription_t[m[K
+[01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/member_function_with_topic_statistics.cpp:[m[K In constructor ‘[01m[KMinimalSubscriberWithTopicStatistics::[01;32m[KMinimalSubscriberWithTopicStatistics[m[K()[m[K’:
+[01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/member_function_with_topic_statistics.cpp:43:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   43 |     [01;31m[Ksubscription_[m[K = this->create_subscription<tutorial_interfaces::msg::Num>(
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Krmw_subscription_t[m[K
+gmake[2]: *** [CMakeFiles/listener_with_topic_statistics.dir/build.make:76: CMakeFiles/listener_with_topic_statistics.dir/src/member_function_with_topic_statistics.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/listener_with_topic_statistics.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

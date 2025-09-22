@@ -1,0 +1,16 @@
+/home/kelly/launch_ws/install/cpp_launch_example/share/cpp_launch_example//launch/my_script_launch.yaml
+/home/kelly/launch_ws/install/cpp_launch_example/share/ament_index/resource_index/package_run_dependencies/cpp_launch_example
+/home/kelly/launch_ws/install/cpp_launch_example/share/ament_index/resource_index/parent_prefix_path/cpp_launch_example
+/home/kelly/launch_ws/install/cpp_launch_example/share/cpp_launch_example/environment/ament_prefix_path.sh
+/home/kelly/launch_ws/install/cpp_launch_example/share/cpp_launch_example/environment/ament_prefix_path.dsv
+/home/kelly/launch_ws/install/cpp_launch_example/share/cpp_launch_example/environment/path.sh
+/home/kelly/launch_ws/install/cpp_launch_example/share/cpp_launch_example/environment/path.dsv
+/home/kelly/launch_ws/install/cpp_launch_example/share/cpp_launch_example/local_setup.bash
+/home/kelly/launch_ws/install/cpp_launch_example/share/cpp_launch_example/local_setup.sh
+/home/kelly/launch_ws/install/cpp_launch_example/share/cpp_launch_example/local_setup.zsh
+/home/kelly/launch_ws/install/cpp_launch_example/share/cpp_launch_example/local_setup.dsv
+/home/kelly/launch_ws/install/cpp_launch_example/share/cpp_launch_example/package.dsv
+/home/kelly/launch_ws/install/cpp_launch_example/share/ament_index/resource_index/packages/cpp_launch_example
+/home/kelly/launch_ws/install/cpp_launch_example/share/cpp_launch_example/cmake/cpp_launch_exampleConfig.cmake
+/home/kelly/launch_ws/install/cpp_launch_example/share/cpp_launch_example/cmake/cpp_launch_exampleConfig-version.cmake
+/home/kelly/launch_ws/install/cpp_launch_example/share/cpp_launch_example/package.xml

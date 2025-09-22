@@ -1,0 +1,67 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tutorial_interfaces: 0.0.0 (/home/kelly/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/kelly/ros2_ws/build/cpp_pubsub
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o[0m
+[01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:30:78:[m[K [01;31m[Kerror: [m[Kmacro "RCLCPP_INFO_STREAM" passed 3 arguments, but takes just 2
+   30 |         RCLCPP_INFO_STREAM(this->get_logger(), "I heard: '%s'", msg.num << ""[01;31m[K)[m[K;
+      |                                                                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:17[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:708:[m[K [01;36m[Knote: [m[Kmacro "RCLCPP_INFO_STREAM" defined here
+  708 | #define RCLCPP_INFO_STREAM(logger, stream_arg) \
+      | 
+[01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:37:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+   37 |   rclcpp::Subscription<[01;31m[Kstd_msgs[m[K::msg::String>::SharedPtr subscription_;
+      |                        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:37:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   37 |   rclcpp::Subscription<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr subscription_;
+      |                                             [01;31m[K^[m[K
+[01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:37:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:37:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:37:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:37:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   37 |   rclcpp::Subscription<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K subscription_;
+      |                                                [01;31m[K^~~~~~~~~[m[K
+      |                                                         [32m[K;[m[K
+[01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:37:58:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   37 |   rclcpp::Subscription<std_msgs::msg::String>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                          [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                          [32m[Krmw_subscription_t[m[K
+[01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/publisher_lambda_function.cpp:[m[K In lambda function:
+[01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/publisher_lambda_function.cpp:39:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kutorial_interfaces[m[K’ has not been declared
+   39 |         auto message = [01;31m[Kutorial_interfaces[m[K::msg::Num();
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/publisher_lambda_function.cpp:40:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MinimalPublisher[m[K’ has no member named ‘[01m[Kcount[m[K’; did you mean ‘[01m[Kcount_[m[K’?
+   40 |         message.num = this->[01;31m[Kcount[m[K++;
+      |                             [01;31m[K^~~~~[m[K
+      |                             [32m[Kcount_[m[K
+[01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:[m[K In lambda function:
+[01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:30:9:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO_STREAM[m[K’ was not declared in this scope
+   30 |         [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "I heard: '%s'", msg.num << "");
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:29:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   29 |       [this]([01;35m[Kconst tutorial_interfaces::msg::Num & msg[m[K) -> void {
+      |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::[01;32m[KMinimalSubscriber[m[K()[m[K’:
+[01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   32 |     [01;31m[Ksubscription_[m[K =
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Krmw_subscription_t[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

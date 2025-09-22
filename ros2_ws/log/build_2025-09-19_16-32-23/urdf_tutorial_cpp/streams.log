@@ -1,0 +1,64 @@
+[0.005s] Invoking command in '/home/kelly/ros2_ws/build/urdf_tutorial_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kelly/ros2_ws/src/urdf_tutorial_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kelly/ros2_ws/install/urdf_tutorial_cpp
+[0.101s] -- The C compiler identification is GNU 13.3.0
+[0.163s] -- The CXX compiler identification is GNU 13.3.0
+[0.183s] -- Detecting C compiler ABI info
+[0.317s] -- Detecting C compiler ABI info - done
+[0.325s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.325s] -- Detecting C compile features
+[0.325s] -- Detecting C compile features - done
+[0.331s] -- Detecting CXX compiler ABI info
+[0.445s] -- Detecting CXX compiler ABI info - done
+[0.450s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.451s] -- Detecting CXX compile features
+[0.451s] -- Detecting CXX compile features - done
+[0.452s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.598s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.647s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.666s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.689s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.695s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.702s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.713s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.743s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.773s] -- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.820s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.821s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.885s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.939s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.957s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.058s] -- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.069s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.070s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.070s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.133s] -- Configuring done (1.1s)
+[1.139s] -- Generating done (0.0s)
+[1.143s] -- Build files have been written to: /home/kelly/ros2_ws/build/urdf_tutorial_cpp
+[1.151s] Invoked command in '/home/kelly/ros2_ws/build/urdf_tutorial_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kelly/ros2_ws/src/urdf_tutorial_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kelly/ros2_ws/install/urdf_tutorial_cpp
+[1.152s] Invoking command in '/home/kelly/ros2_ws/build/urdf_tutorial_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kelly/ros2_ws/build/urdf_tutorial_cpp -- -j32 -l32
+[1.193s] [ 50%] [32mBuilding CXX object CMakeFiles/urdf_tutorial_cpp.dir/src/urdf_tutorial.cpp.o[0m
+[3.905s] [100%] [32m[1mLinking CXX executable urdf_tutorial_cpp[0m
+[4.023s] [100%] Built target urdf_tutorial_cpp
+[4.030s] Invoked command in '/home/kelly/ros2_ws/build/urdf_tutorial_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kelly/ros2_ws/build/urdf_tutorial_cpp -- -j32 -l32
+[4.038s] Invoking command in '/home/kelly/ros2_ws/build/urdf_tutorial_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kelly/ros2_ws/build/urdf_tutorial_cpp
+[4.048s] -- Install configuration: ""
+[4.048s] -- Execute custom install script
+[4.048s] -- Symlinking: /home/kelly/ros2_ws/install/urdf_tutorial_cpp/lib/urdf_tutorial_cpp/urdf_tutorial_cpp
+[4.055s] -- Symlinking: /home/kelly/ros2_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/launch/launch.py
+[4.066s] -- Symlinking: /home/kelly/ros2_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/urdf/r2d2.rviz
+[4.077s] -- Symlinking: /home/kelly/ros2_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/urdf/r2d2.urdf.xml
+[4.103s] -- Symlinking: /home/kelly/ros2_ws/install/urdf_tutorial_cpp/share/ament_index/resource_index/package_run_dependencies/urdf_tutorial_cpp
+[4.121s] -- Symlinking: /home/kelly/ros2_ws/install/urdf_tutorial_cpp/share/ament_index/resource_index/parent_prefix_path/urdf_tutorial_cpp
+[4.133s] -- Symlinking: /home/kelly/ros2_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/environment/ament_prefix_path.sh
+[4.138s] -- Symlinking: /home/kelly/ros2_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/environment/ament_prefix_path.dsv
+[4.145s] -- Symlinking: /home/kelly/ros2_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/environment/path.sh
+[4.153s] -- Symlinking: /home/kelly/ros2_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/environment/path.dsv
+[4.163s] -- Symlinking: /home/kelly/ros2_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/local_setup.bash
+[4.169s] -- Symlinking: /home/kelly/ros2_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/local_setup.sh
+[4.181s] -- Symlinking: /home/kelly/ros2_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/local_setup.zsh
+[4.187s] -- Symlinking: /home/kelly/ros2_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/local_setup.dsv
+[4.198s] -- Symlinking: /home/kelly/ros2_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/package.dsv
+[4.203s] -- Symlinking: /home/kelly/ros2_ws/install/urdf_tutorial_cpp/share/ament_index/resource_index/packages/urdf_tutorial_cpp
+[4.215s] -- Symlinking: /home/kelly/ros2_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/cmake/urdf_tutorial_cppConfig.cmake
+[4.228s] -- Symlinking: /home/kelly/ros2_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/cmake/urdf_tutorial_cppConfig-version.cmake
+[4.238s] -- Symlinking: /home/kelly/ros2_ws/install/urdf_tutorial_cpp/share/urdf_tutorial_cpp/package.xml
+[4.248s] Invoked command in '/home/kelly/ros2_ws/build/urdf_tutorial_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kelly/ros2_ws/build/urdf_tutorial_cpp

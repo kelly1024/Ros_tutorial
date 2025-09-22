@@ -1,0 +1,105 @@
+[0.000000] (-) TimerEvent: {}
+[0.000352] (-) JobUnselected: {'identifier': 'cpp_parameter_event_handler'}
+[0.000394] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000409] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000421] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000432] (-) JobUnselected: {'identifier': 'custom_action_cpp'}
+[0.000449] (-) JobUnselected: {'identifier': 'custom_action_interfaces'}
+[0.000459] (-) JobUnselected: {'identifier': 'learning_tf2_cpp'}
+[0.000540] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.000552] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000562] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.000571] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.000581] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000591] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000601] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000613] (urdf_tutorial_cpp) JobQueued: {'identifier': 'urdf_tutorial_cpp', 'dependencies': OrderedDict()}
+[0.000627] (urdf_tutorial_cpp) JobStarted: {'identifier': 'urdf_tutorial_cpp'}
+[0.006550] (urdf_tutorial_cpp) JobProgress: {'identifier': 'urdf_tutorial_cpp', 'progress': 'cmake'}
+[0.006959] (urdf_tutorial_cpp) JobProgress: {'identifier': 'urdf_tutorial_cpp', 'progress': 'build'}
+[0.007373] (urdf_tutorial_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kelly/ros2_ws/build/urdf_tutorial_cpp', '--', '-j32', '-l32'], 'cwd': '/home/kelly/ros2_ws/build/urdf_tutorial_cpp', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kelly', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kelly', 'OLDPWD': '/home/kelly/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3074', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kelly', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kelly', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kelly-Linux:@/tmp/.ICE-unix/2861,unix/kelly-Linux:/tmp/.ICE-unix/2861', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/103dce71_6f2f_463a_a4f8_1022fef6d3e3', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.110', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kelly/ros2_ws/build/urdf_tutorial_cpp', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.025435] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099914] (-) TimerEvent: {}
+[0.200168] (-) TimerEvent: {}
+[0.226342] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.229529] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.243002] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.247052] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.254117] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.260698] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.285889] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[0.300275] (-) TimerEvent: {}
+[0.310858] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[0.356802] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.357810] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400360] (-) TimerEvent: {}
+[0.403493] (urdf_tutorial_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500464] (-) TimerEvent: {}
+[0.543355] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.14 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[0.544960] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[0.545548] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.548726] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[0.556968] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Found pluginlib: 5.4.2 (/opt/ros/jazzy/share/pluginlib/cmake)\n'}
+[0.560554] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Found rviz_common: 14.1.13 (/opt/ros/jazzy/share/rviz_common/cmake)\n'}
+[0.578631] (urdf_tutorial_cpp) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[0.580058] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Found OGRE\n'}
+[0.580169] (urdf_tutorial_cpp) StdoutLine: {'line': b'--   static     : OFF\n'}
+[0.580343] (urdf_tutorial_cpp) StdoutLine: {'line': b'--   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[0.580447] (urdf_tutorial_cpp) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[0.580551] (urdf_tutorial_cpp) StdoutLine: {'line': b'--   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[0.580654] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[0.580758] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib\n'}
+[0.580860] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[0.580962] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[0.581063] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[0.581165] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[0.581296] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[0.581402] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[0.600611] (-) TimerEvent: {}
+[0.639615] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  \n'}
+[0.647627] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[0.700698] (-) TimerEvent: {}
+[0.792977] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[0.793262] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[0.800818] (-) TimerEvent: {}
+[0.901139] (-) TimerEvent: {}
+[0.923872] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[0.924044] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[1.001374] (-) TimerEvent: {}
+[1.041306] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[1.041484] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Looking for connect\n'}
+[1.101464] (-) TimerEvent: {}
+[1.124377] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[1.124576] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Looking for remove\n'}
+[1.201556] (-) TimerEvent: {}
+[1.207704] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[1.208006] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[1.301868] (-) TimerEvent: {}
+[1.320010] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[1.320194] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[1.402217] (-) TimerEvent: {}
+[1.424319] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[1.465852] (urdf_tutorial_cpp) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'\n"}
+[1.488025] (urdf_tutorial_cpp) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:19 (find_package):\n'}
+[1.488361] (urdf_tutorial_cpp) StderrLine: {'line': b'  By not providing "Findrviz_plugin_tutorial_msgs.cmake" in CMAKE_MODULE_PATH\n'}
+[1.488493] (urdf_tutorial_cpp) StderrLine: {'line': b'  this project has asked CMake to find a package configuration file provided\n'}
+[1.488609] (urdf_tutorial_cpp) StderrLine: {'line': b'  by "rviz_plugin_tutorial_msgs", but CMake did not find one.\n'}
+[1.488701] (urdf_tutorial_cpp) StderrLine: {'line': b'\n'}
+[1.488768] (urdf_tutorial_cpp) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[1.488833] (urdf_tutorial_cpp) StderrLine: {'line': b'  "rviz_plugin_tutorial_msgs" with any of the following names:\n'}
+[1.488898] (urdf_tutorial_cpp) StderrLine: {'line': b'\n'}
+[1.488962] (urdf_tutorial_cpp) StderrLine: {'line': b'    rviz_plugin_tutorial_msgsConfig.cmake\n'}
+[1.489028] (urdf_tutorial_cpp) StderrLine: {'line': b'    rviz_plugin_tutorial_msgs-config.cmake\n'}
+[1.489099] (urdf_tutorial_cpp) StderrLine: {'line': b'\n'}
+[1.489162] (urdf_tutorial_cpp) StderrLine: {'line': b'  Add the installation prefix of "rviz_plugin_tutorial_msgs" to\n'}
+[1.489224] (urdf_tutorial_cpp) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "rviz_plugin_tutorial_msgs_DIR" to a directory\n'}
+[1.489293] (urdf_tutorial_cpp) StderrLine: {'line': b'  containing one of the above files.  If "rviz_plugin_tutorial_msgs" provides\n'}
+[1.489361] (urdf_tutorial_cpp) StderrLine: {'line': b'  a separate development package or SDK, be sure it has been installed.\n'}
+[1.489424] (urdf_tutorial_cpp) StderrLine: {'line': b'\n'}
+[1.489485] (urdf_tutorial_cpp) StderrLine: {'line': b'\x1b[0m\n'}
+[1.489547] (urdf_tutorial_cpp) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.494293] (urdf_tutorial_cpp) StderrLine: {'line': b'gmake: *** [Makefile:267: cmake_check_build_system] Error 1\n'}
+[1.495495] (urdf_tutorial_cpp) CommandEnded: {'returncode': 2}
+[1.502305] (-) TimerEvent: {}
+[1.507745] (urdf_tutorial_cpp) JobEnded: {'identifier': 'urdf_tutorial_cpp', 'rc': 2}
+[1.518450] (-) EventReactorShutdown: {}

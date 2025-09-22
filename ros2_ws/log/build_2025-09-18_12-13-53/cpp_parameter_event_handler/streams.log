@@ -1,0 +1,62 @@
+[0.006s] Invoking command in '/home/kelly/ros2_ws/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kelly/ros2_ws/src/cpp_parameter_event_handler -DCMAKE_INSTALL_PREFIX=/home/kelly/ros2_ws/install/cpp_parameter_event_handler
+[0.136s] -- The C compiler identification is GNU 13.3.0
+[0.242s] -- The CXX compiler identification is GNU 13.3.0
+[0.283s] -- Detecting C compiler ABI info
+[0.413s] -- Detecting C compiler ABI info - done
+[0.423s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.423s] -- Detecting C compile features
+[0.424s] -- Detecting C compile features - done
+[0.444s] -- Detecting CXX compiler ABI info
+[0.625s] -- Detecting CXX compiler ABI info - done
+[0.630s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.630s] -- Detecting CXX compile features
+[0.631s] -- Detecting CXX compile features - done
+[0.633s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.753s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.829s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.877s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.886s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.898s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.910s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.955s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.957s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.051s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.093s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.114s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.161s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.221s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.221s] -- Configured cppcheck include dirs: 
+[1.222s] -- Configured cppcheck exclude dirs and/or files: 
+[1.222s] -- Added test 'lint_cmake' to check CMake code style
+[1.223s] -- Added test 'uncrustify' to check C / C++ code style
+[1.223s] -- Configured uncrustify additional arguments: 
+[1.224s] -- Added test 'xmllint' to check XML markup files
+[1.225s] -- Configuring done (1.2s)
+[1.229s] -- Generating done (0.0s)
+[1.231s] -- Build files have been written to: /home/kelly/ros2_ws/build/cpp_parameter_event_handler
+[1.235s] Invoked command in '/home/kelly/ros2_ws/build/cpp_parameter_event_handler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kelly/ros2_ws/src/cpp_parameter_event_handler -DCMAKE_INSTALL_PREFIX=/home/kelly/ros2_ws/install/cpp_parameter_event_handler
+[1.236s] Invoking command in '/home/kelly/ros2_ws/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kelly/ros2_ws/build/cpp_parameter_event_handler -- -j32 -l32
+[1.297s] [ 50%] [32mBuilding CXX object CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o[0m
+[4.400s] [100%] [32m[1mLinking CXX executable parameter_event_handler[0m
+[4.516s] [100%] Built target parameter_event_handler
+[4.524s] Invoked command in '/home/kelly/ros2_ws/build/cpp_parameter_event_handler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kelly/ros2_ws/build/cpp_parameter_event_handler -- -j32 -l32
+[4.530s] Invoking command in '/home/kelly/ros2_ws/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kelly/ros2_ws/build/cpp_parameter_event_handler
+[4.537s] -- Install configuration: ""
+[4.537s] -- Installing: /home/kelly/ros2_ws/install/cpp_parameter_event_handler/lib/cpp_parameter_event_handler/parameter_event_handler
+[4.539s] -- Set non-toolchain portion of runtime path of "/home/kelly/ros2_ws/install/cpp_parameter_event_handler/lib/cpp_parameter_event_handler/parameter_event_handler" to ""
+[4.539s] -- Installing: /home/kelly/ros2_ws/install/cpp_parameter_event_handler/share/ament_index/resource_index/package_run_dependencies/cpp_parameter_event_handler
+[4.539s] -- Installing: /home/kelly/ros2_ws/install/cpp_parameter_event_handler/share/ament_index/resource_index/parent_prefix_path/cpp_parameter_event_handler
+[4.539s] -- Installing: /home/kelly/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/ament_prefix_path.sh
+[4.539s] -- Installing: /home/kelly/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/ament_prefix_path.dsv
+[4.539s] -- Installing: /home/kelly/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/path.sh
+[4.539s] -- Installing: /home/kelly/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/path.dsv
+[4.539s] -- Installing: /home/kelly/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.bash
+[4.540s] -- Installing: /home/kelly/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.sh
+[4.540s] -- Installing: /home/kelly/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.zsh
+[4.540s] -- Installing: /home/kelly/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.dsv
+[4.540s] -- Installing: /home/kelly/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.dsv
+[4.540s] -- Installing: /home/kelly/ros2_ws/install/cpp_parameter_event_handler/share/ament_index/resource_index/packages/cpp_parameter_event_handler
+[4.540s] -- Installing: /home/kelly/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/cmake/cpp_parameter_event_handlerConfig.cmake
+[4.540s] -- Installing: /home/kelly/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/cmake/cpp_parameter_event_handlerConfig-version.cmake
+[4.540s] -- Installing: /home/kelly/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.xml
+[4.541s] Invoked command in '/home/kelly/ros2_ws/build/cpp_parameter_event_handler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kelly/ros2_ws/build/cpp_parameter_event_handler

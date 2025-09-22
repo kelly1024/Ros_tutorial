@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+8a480897ee0838709dc3feb46c387392 CMakeFiles/polygon_base_uninstall

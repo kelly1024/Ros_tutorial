@@ -1,0 +1,40 @@
+[0.008s] Invoking command in '/home/kelly/ros2_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/kelly/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kelly/ros2_ws/install/tutorial_interfaces:/home/kelly/ros2_ws/install/cpp_srvcli:/home/kelly/ros2_ws/install/turtlesim:/home/kelly/ros2_ws/install/my_package:/home/kelly/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/kelly/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kelly/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kelly/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kelly/ros2_ws/build/cpp_pubsub -- -j32 -l32
+[0.090s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o[0m
+[0.090s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[0m
+[1.088s] [01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/publisher_lambda_function.cpp:[m[K In lambda function:
+[1.088s] [01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/publisher_lambda_function.cpp:39:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kutorial_interfaces[m[K’ has not been declared
+[1.088s]    39 |         auto message = [01;31m[Kutorial_interfaces[m[K::msg::Num();
+[1.088s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.088s] [01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/publisher_lambda_function.cpp:40:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MinimalPublisher[m[K’ has no member named ‘[01m[Kcount[m[K’; did you mean ‘[01m[Kcount_[m[K’?
+[1.088s]    40 |         message.num = this->[01;31m[Kcount[m[K++;
+[1.088s]       |                             [01;31m[K^~~~~[m[K
+[1.089s]       |                             [32m[Kcount_[m[K
+[1.119s] [01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:37:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[1.119s]    37 |   rclcpp::Subscription<[01;31m[Kstd_msgs[m[K::msg::String>::SharedPtr subscription_;
+[1.119s]       |                        [01;31m[K^~~~~~~~[m[K
+[1.119s] [01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:37:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.119s]    37 |   rclcpp::Subscription<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr subscription_;
+[1.119s]       |                                             [01;31m[K^[m[K
+[1.119s] [01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:37:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[1.119s] [01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:37:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[1.119s] [01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:37:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[1.119s] [01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:37:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.119s]    37 |   rclcpp::Subscription<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K subscription_;
+[1.119s]       |                                                [01;31m[K^~~~~~~~~[m[K
+[1.119s]       |                                                         [32m[K;[m[K
+[1.120s] [01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:37:58:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[1.120s]    37 |   rclcpp::Subscription<std_msgs::msg::String>::SharedPtr [01;31m[Ksubscription_[m[K;
+[1.120s]       |                                                          [01;31m[K^~~~~~~~~~~~~[m[K
+[1.120s]       |                                                          [32m[Krmw_subscription_t[m[K
+[1.124s] [01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::[01;32m[KMinimalSubscriber[m[K()[m[K’:
+[1.125s] [01m[K/home/kelly/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[1.125s]    32 |     [01;31m[Ksubscription_[m[K =
+[1.125s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[1.125s]       |     [32m[Krmw_subscription_t[m[K
+[1.526s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o] Error 1
+[1.526s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[1.526s] gmake[1]: *** Waiting for unfinished jobs....
+[2.070s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o] Error 1
+[2.070s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+[2.070s] gmake: *** [Makefile:146: all] Error 2
+[2.072s] Invoked command in '/home/kelly/ros2_ws/build/cpp_pubsub' returned '2': AMENT_PREFIX_PATH=/home/kelly/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kelly/ros2_ws/install/tutorial_interfaces:/home/kelly/ros2_ws/install/cpp_srvcli:/home/kelly/ros2_ws/install/turtlesim:/home/kelly/ros2_ws/install/my_package:/home/kelly/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/kelly/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kelly/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kelly/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kelly/ros2_ws/build/cpp_pubsub -- -j32 -l32

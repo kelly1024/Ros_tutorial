@@ -1,0 +1,71 @@
+[0.007s] Invoking command in '/home/kelly/ros2_ws/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/kelly/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kelly/ros2_ws/install/tutorial_interfaces:/home/kelly/ros2_ws/install/cpp_srvcli:/home/kelly/ros2_ws/install/turtlesim:/home/kelly/ros2_ws/install/my_package:/home/kelly/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/kelly/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kelly/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kelly/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kelly/ros2_ws/build/cpp_srvcli -- -j32 -l32
+[0.023s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.159s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.173s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.177s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.183s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.189s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.220s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.221s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.269s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.303s] -- Found tutorial_interfaces: 0.0.0 (/home/kelly/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[0.386s] -- Configuring done (0.4s)
+[0.394s] -- Generating done (0.0s)
+[0.396s] -- Build files have been written to: /home/kelly/ros2_ws/build/cpp_srvcli
+[0.425s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[0.425s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[0.526s] [01m[K/home/kelly/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/srv/add_two_ints.hpp: No such file or directory
+[0.526s]     2 | #include [01;31m[K"example_interfaces/srv/add_two_ints.hpp"[m[K
+[0.526s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.526s] compilation terminated.
+[0.528s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/add_two_ints_server.cpp.o] Error 1
+[0.529s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+[0.529s] gmake[1]: *** Waiting for unfinished jobs....
+[1.417s] [01m[K/home/kelly/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[1.417s] [01m[K/home/kelly/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:21:39:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Ktutorial_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+[1.417s]    21 |   rclcpp::Client<tutorial_interfaces::[01;31m[Ksrv[m[K::AddThreeInts>::SharedPtr client =
+[1.417s]       |                                       [01;31m[K^~~[m[K
+[1.417s] In file included from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:7[m[K,
+[1.417s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:21[m[K,
+[1.417s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[1.417s]                  from [01m[K/home/kelly/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:1[m[K:
+[1.417s] [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+[1.417s]    30 | namespace [01;36m[Ksrv[m[K
+[1.417s]       |           [01;36m[K^~~[m[K
+[1.417s] [01m[K/home/kelly/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:21:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.418s]    21 |   rclcpp::Client<tutorial_interfaces::srv::AddThreeInts[01;31m[K>[m[K::SharedPtr client =
+[1.418s]       |                                                        [01;31m[K^[m[K
+[1.418s] [01m[K/home/kelly/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:21:69:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[Kclient[m[K’
+[1.418s]    21 |   rclcpp::Client<tutorial_interfaces::srv::AddThreeInts>::SharedPtr [01;31m[Kclient[m[K =
+[1.418s]       |                                                                     [01;31m[K^~~~~~[m[K
+[1.418s] [01m[K/home/kelly/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:24:56:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Ktutorial_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+[1.418s]    24 |   auto request = std::make_shared<tutorial_interfaces::[01;31m[Ksrv[m[K::AddThreeInts::Request>();
+[1.418s]       |                                                        [01;31m[K^~~[m[K
+[1.418s] [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+[1.419s]    30 | namespace [01;36m[Ksrv[m[K
+[1.419s]       |           [01;36m[K^~~[m[K
+[1.419s] [01m[K/home/kelly/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:24:23:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[1.419s]    24 |   auto request = std::[01;31m[Kmake_shared<tutorial_interfaces::srv::AddThreeInts::Request>[m[K();
+[1.419s]       |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.419s] [01m[K/home/kelly/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:24:83:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[1.419s]    24 |   auto request = [01;31m[Kstd::make_shared<tutorial_interfaces::srv::AddThreeInts::Request>()[m[K;
+[1.419s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.419s] In file included from [01m[K/usr/include/c++/13/memory:80[m[K,
+[1.419s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K:
+[1.419s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...)[m[K’
+[1.419s]  1005 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[1.419s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[1.419s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.419s] [01m[K/home/kelly/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:24:83:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.419s]    24 |   auto request = [01;31m[Kstd::make_shared<tutorial_interfaces::srv::AddThreeInts::Request>()[m[K;
+[1.419s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.419s] [01m[K/home/kelly/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:30:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope
+[1.420s]    30 |   while (![01;31m[Kclient[m[K->wait_for_service(1s)) {
+[1.420s]       |           [01;31m[K^~~~~~[m[K
+[1.422s] [01m[K/home/kelly/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:38:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope
+[1.422s]    38 |   auto result = [01;31m[Kclient[m[K->async_send_request(request);
+[1.422s]       |                 [01;31m[K^~~~~~[m[K
+[1.705s] gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/add_two_ints_client.cpp.o] Error 1
+[1.706s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+[1.706s] gmake: *** [Makefile:146: all] Error 2
+[1.707s] Invoked command in '/home/kelly/ros2_ws/build/cpp_srvcli' returned '2': AMENT_PREFIX_PATH=/home/kelly/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kelly/ros2_ws/install/tutorial_interfaces:/home/kelly/ros2_ws/install/cpp_srvcli:/home/kelly/ros2_ws/install/turtlesim:/home/kelly/ros2_ws/install/my_package:/home/kelly/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/kelly/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kelly/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kelly/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kelly/ros2_ws/build/cpp_srvcli -- -j32 -l32

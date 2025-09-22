@@ -1,0 +1,30 @@
+[0.006s] Invoking command in '/home/kelly/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kelly/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kelly/ros2_ws/build/cpp_srvcli -- -j32 -l32
+[0.039s] [ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[0.040s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[1.657s] [ 75%] [32m[1mLinking CXX executable server[0m
+[1.736s] [ 75%] Built target server
+[1.738s] [100%] [32m[1mLinking CXX executable client[0m
+[1.816s] [100%] Built target client
+[1.822s] Invoked command in '/home/kelly/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kelly/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kelly/ros2_ws/build/cpp_srvcli -- -j32 -l32
+[1.830s] Invoking command in '/home/kelly/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kelly/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kelly/ros2_ws/build/cpp_srvcli
+[1.835s] -- Install configuration: ""
+[1.835s] -- Installing: /home/kelly/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[1.836s] -- Set non-toolchain portion of runtime path of "/home/kelly/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[1.836s] -- Installing: /home/kelly/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[1.837s] -- Set non-toolchain portion of runtime path of "/home/kelly/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[1.837s] -- Installing: /home/kelly/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[1.837s] -- Installing: /home/kelly/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[1.837s] -- Installing: /home/kelly/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[1.837s] -- Installing: /home/kelly/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[1.837s] -- Installing: /home/kelly/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[1.837s] -- Installing: /home/kelly/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[1.837s] -- Installing: /home/kelly/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[1.837s] -- Installing: /home/kelly/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[1.837s] -- Installing: /home/kelly/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[1.837s] -- Installing: /home/kelly/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[1.837s] -- Installing: /home/kelly/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[1.837s] -- Installing: /home/kelly/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[1.838s] -- Installing: /home/kelly/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[1.838s] -- Installing: /home/kelly/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[1.838s] -- Installing: /home/kelly/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[1.838s] Invoked command in '/home/kelly/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kelly/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kelly/ros2_ws/build/cpp_srvcli

@@ -1,0 +1,66 @@
+[0.004s] Invoking command in '/home/kelly/ros2_ws/build/bag_recorder_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kelly/ros2_ws/src/bag_recorder_nodes -DCMAKE_INSTALL_PREFIX=/home/kelly/ros2_ws/install/bag_recorder_nodes
+[0.086s] -- The C compiler identification is GNU 13.3.0
+[0.131s] -- The CXX compiler identification is GNU 13.3.0
+[0.143s] -- Detecting C compiler ABI info
+[0.299s] -- Detecting C compiler ABI info - done
+[0.304s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.304s] -- Detecting C compile features
+[0.304s] -- Detecting C compile features - done
+[0.310s] -- Detecting CXX compiler ABI info
+[0.446s] -- Detecting CXX compiler ABI info - done
+[0.457s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.457s] -- Detecting CXX compile features
+[0.457s] -- Detecting CXX compile features - done
+[0.459s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.551s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.603s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[0.629s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.635s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.642s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.650s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.691s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.712s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.713s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.775s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.797s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.816s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.863s] -- Found rosbag2_cpp: 0.26.9 (/opt/ros/jazzy/share/rosbag2_cpp/cmake)
+[0.877s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[0.879s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.886s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.939s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.939s] -- Configured cppcheck include dirs: 
+[0.939s] -- Configured cppcheck exclude dirs and/or files: 
+[0.940s] -- Added test 'lint_cmake' to check CMake code style
+[0.941s] -- Added test 'uncrustify' to check C / C++ code style
+[0.941s] -- Configured uncrustify additional arguments: 
+[0.941s] -- Added test 'xmllint' to check XML markup files
+[0.942s] -- Configuring done (0.9s)
+[0.947s] -- Generating done (0.0s)
+[0.948s] -- Build files have been written to: /home/kelly/ros2_ws/build/bag_recorder_nodes
+[0.954s] Invoked command in '/home/kelly/ros2_ws/build/bag_recorder_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kelly/ros2_ws/src/bag_recorder_nodes -DCMAKE_INSTALL_PREFIX=/home/kelly/ros2_ws/install/bag_recorder_nodes
+[0.954s] Invoking command in '/home/kelly/ros2_ws/build/bag_recorder_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kelly/ros2_ws/build/bag_recorder_nodes -- -j32 -l32
+[0.997s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_bag_recorder.dir/src/simple_bag_recorder.cpp.o[0m
+[4.148s] [100%] [32m[1mLinking CXX executable simple_bag_recorder[0m
+[4.269s] [100%] Built target simple_bag_recorder
+[4.276s] Invoked command in '/home/kelly/ros2_ws/build/bag_recorder_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kelly/ros2_ws/build/bag_recorder_nodes -- -j32 -l32
+[4.282s] Invoking command in '/home/kelly/ros2_ws/build/bag_recorder_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kelly/ros2_ws/build/bag_recorder_nodes
+[4.288s] -- Install configuration: ""
+[4.288s] -- Installing: /home/kelly/ros2_ws/install/bag_recorder_nodes/lib/bag_recorder_nodes/simple_bag_recorder
+[4.290s] -- Set non-toolchain portion of runtime path of "/home/kelly/ros2_ws/install/bag_recorder_nodes/lib/bag_recorder_nodes/simple_bag_recorder" to ""
+[4.290s] -- Installing: /home/kelly/ros2_ws/install/bag_recorder_nodes/share/ament_index/resource_index/package_run_dependencies/bag_recorder_nodes
+[4.291s] -- Installing: /home/kelly/ros2_ws/install/bag_recorder_nodes/share/ament_index/resource_index/parent_prefix_path/bag_recorder_nodes
+[4.291s] -- Installing: /home/kelly/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/ament_prefix_path.sh
+[4.291s] -- Installing: /home/kelly/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/ament_prefix_path.dsv
+[4.291s] -- Installing: /home/kelly/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/path.sh
+[4.291s] -- Installing: /home/kelly/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/path.dsv
+[4.291s] -- Installing: /home/kelly/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.bash
+[4.291s] -- Installing: /home/kelly/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.sh
+[4.291s] -- Installing: /home/kelly/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.zsh
+[4.291s] -- Installing: /home/kelly/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.dsv
+[4.292s] -- Installing: /home/kelly/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/package.dsv
+[4.292s] -- Installing: /home/kelly/ros2_ws/install/bag_recorder_nodes/share/ament_index/resource_index/packages/bag_recorder_nodes
+[4.292s] -- Installing: /home/kelly/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/cmake/bag_recorder_nodesConfig.cmake
+[4.292s] -- Installing: /home/kelly/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/cmake/bag_recorder_nodesConfig-version.cmake
+[4.292s] -- Installing: /home/kelly/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/package.xml
+[4.293s] Invoked command in '/home/kelly/ros2_ws/build/bag_recorder_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kelly/ros2_ws/build/bag_recorder_nodes
